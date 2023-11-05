@@ -1,0 +1,14 @@
+-Classic questions
+pivot element
+last occurrence
+first occurence
+peak element
+search
+sqrt
+-Search Space Predictate functions
+aggressive Cow
+ekko spoj
+pratta spoj
+painter partition
+-third type Index Obseravtion
+
