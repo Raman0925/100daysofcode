@@ -1,14 +1,15 @@
--Classic questions
-pivot element
-last occurrence
-first occurence
-peak element
-search
-sqrt
--Search Space Predictate functions
-aggressive Cow
-ekko spoj
-pratta spoj
-painter partition
--third type Index Obseravtion
-
+Types of Binary Search Questions asked in interview:
+1)Classic questions
+    a)pivot element
+    b)last occurrence
+    c)first occurence
+    d)peak element
+    e)search
+    f)sqrt
+2)Search Space Predictate functions
+    a)aggressive Cow
+    b)ekko spoj
+    c)pratta spoj
+    d)painter partition
+3)third type Index Obseravtion
+    a)odd occurrence
