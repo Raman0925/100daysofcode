@@ -47,7 +47,12 @@ bool checkPalindrome(char word[]){
     return true;
 }
 
-
+void stringUpper(char word[]){
+        int len = strlen(word);
+        for(int i =0; i<len;i++){
+            word[i] = word[i] - 'a' +'A';
+        }
+}
 
 int main() {
     char myString[] = "Hello, World!";
