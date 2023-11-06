@@ -33,6 +33,22 @@ void reverseChar(char str[]) {
     }
 }
 
+bool checkPalindrome(char word[]){
+    int i =0;
+    int n = strlen(word);
+    int j = n-1;
+    while(i<=j){
+  if(word[i]!=word[j]){
+    return false;
+  }
+  else{i++;
+        j--;}
+    }
+    return true;
+}
+
+
+
 int main() {
     char myString[] = "Hello, World!";
     cout << "Original String: " << myString <<endl;
@@ -43,7 +59,8 @@ int main() {
     replaceSpaces(myString);
 
     cout << "Reversed String and replace spaces " << myString  << endl;
-
+    bool checkPalindrom = checkPalindrome(myString);
+    cout<<"Palindrome is "<<checkPalindrom<<endl;
     return 0;
 }
 
