@@ -38,6 +38,6 @@ int main(){
     int result = fact(10);
     cout<<result;
 
-    return 0;
+    return 0; 
 
 }

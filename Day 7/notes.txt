@@ -1,0 +1,14 @@
+git rm --cached helloworld.cpp only from stagging area
+git rm filename.txt
+rm filename.txt
+
+git checkout command
+We can use checkout command to discard unstaged changes  in the tracked files of working directory
+unstaged changes and tracked filename
+
+git checkout -- filename.extension
+
+Head is a symbolic reference to master. if any pointing to another reference such type of reference is called symbolic reference.
+
+git show master
+git show master~1 last one commit
