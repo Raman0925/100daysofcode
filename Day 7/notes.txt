@@ -12,3 +12,11 @@ Head is a symbolic reference to master. if any pointing to another reference suc
 
 git show master
 git show master~1 last one commit
+
+git reset command:
+reset to default settings.There are two utilities 
+git reset  is opposite of git add
+
+
+
+
