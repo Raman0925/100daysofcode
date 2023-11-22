@@ -1,0 +1,10 @@
+Low level design: 
+Buider : Creating a template which inherits all the components
+Like Branded Laptops inherits cpu, or COnstruction process.
+Builder has abstract methods which need to be implemented or Builder.
+
+Configurations 
+Dell Desktop Builder(Ram,Process,Speaker,Printer,Mouse,Keyboard)
+Too many parameter are same. Need to build template.
+
+Director will have concrete object. builder.buildRam
