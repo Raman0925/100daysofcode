@@ -1,0 +1,20 @@
+SOLID PRINCIPLE :
+S ---> Single Responsibility
+O ---> Open for Extensibility and closed for modification
+L --->
+I --->
+D --->
+
+used for closely related objects.
+
+
+Factory Design pattern is used when you need to create objects.
+Abstract    Encapsulate object design process in Factory
+Order can be of different types
+Product can be of different types
+High Level shou
+Design Pattern is used in relative of performance of something.
+
+Factory Design pattern for video which can be of multiple types Movies TV shows Documentary.
+
+

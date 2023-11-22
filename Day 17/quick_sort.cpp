@@ -7,7 +7,7 @@ int partition(int arr[], int s, int e){
     int pivotIndex = s;
     int pivotElement = arr[s];
     int count =0;
-    for(int i = s+1,i<=e;i++){
+    for(int i = s+1;i<=e;i++){
         if(arr[i]<=pivotElement){
             count++;
         }
@@ -41,5 +41,5 @@ void quickSort(int arr[],int s,int e){
 
 int main(){
 
-    
+
 }
