@@ -1,0 +1,7 @@
+bool BalancedTree(TreeNode* root){
+    if(root ==NULL){
+        return true;
+    }
+    int leftHeight= height(root->left);
+   
+}
