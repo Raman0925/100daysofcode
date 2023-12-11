@@ -16,6 +16,19 @@ public:
         this->next = NULL;
     }
 };
+Node* tailDelete(Node* head){
+    if(head == NULL ||head->next = NULL){
+         return NULL;
+        
+    }
+    Node*  temp = head;
+    while(temp->next->next != NULL){
+        temp = temp->next;
+    }
+    delete temp->next;
+    temp->next = nullptr;
+    return head;
+}
 
 int main() {
     vector<int> arr = {2, 5, 8, 7};
